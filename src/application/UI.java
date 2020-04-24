@@ -29,11 +29,3 @@ public class UI {
         System.out.print(" ");
     }//metodo auxiliar para imprimir uma peça
 }
-
-
-/*for(int i=0; i < 9; i++){
-            //System.out.println(""+i);
-            for(int j=0; j < 9; j++){
-                System.out.printf("%d %d",i,j);
-            }
-        }*/
