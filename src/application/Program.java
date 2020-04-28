@@ -21,7 +21,7 @@ public class Program {
 
         UI.printBoard(chessMatch.getPieces()); //UI para imprimir as peças da partida
 
-        while(true){
+        while(!chessMatch.getCheckMate()){
             try {
                 UI.clearScreen();
                 UI.printMatch(chessMatch, captured);
@@ -52,6 +52,8 @@ public class Program {
                 sc.nextLine();
             }
         }
+        UI.clearScreen();
+        UI.printMatch(chessMatch, captured);
 
     }
 }
